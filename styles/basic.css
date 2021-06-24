@@ -7,7 +7,5 @@ font-family: 'Open Sans', sans-serif; */
 body {
     margin: 0;
     padding: 3vh 6.25vw;
-    /* width: calc(1920px - 6.25vw*2); */
-
     font-size: 16px;
 }

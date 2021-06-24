@@ -22,6 +22,10 @@ nav {
     margin: 0 1vw;
 }
 
+.nav__links > a:hover {
+    text-decoration: underline;
+}
+
 .nav__logo {
     height: 35px;
 }
