@@ -42,8 +42,9 @@ nav {
     margin: 0 1vw;
 }
 
-.nav__tools img {
+.nav__tools svg {
     height: 25px;
+    width: 20px;
 }
 
 .tools__search {

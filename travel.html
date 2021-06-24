@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,10 +19,13 @@
 
     <title>Travel</title>
 </head>
+
 <body>
     
     <nav>
-        <img src="./styles/icons/nav/logo.svg" alt="travel logo" class="nav__logo">
+        <svg alt="travel logo" class="nav__logo">
+            <use xlink:href="./styles/icons/nav/icons.svg#logo"></use>
+        </svg>
         <div class="nav__links">
             <a href="#destination">Destination</a>
             <a href="#offer">Offer</a>
@@ -30,12 +34,14 @@
         </div>
         <div class="nav__tools">
             <div class="tools__account">
-                <img src="./styles/icons/nav/user.svg" alt="account icon">
+                <svg alt="account icon">
+                    <use xlink:href="./styles/icons/nav/icons.svg#user"></use>
+                </svg>
                 <span>My Account</span>
             </div>
-            <div class="tools__search">
-                <img src="./styles/icons/nav/search.svg" alt="search">
-            </div>
+            <svg alt="account icon" class="tools__search">
+                <use xlink:href="./styles/icons/nav/icons.svg#search"></use>
+            </svg>
         </div>
     </nav>
 
