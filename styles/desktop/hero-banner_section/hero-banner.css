@@ -30,6 +30,7 @@
     font-weight: bold;
     font-size: 5rem;
     line-height: 112px;
+    margin: 0;
 }
 
 .hero-banner__button {
@@ -46,9 +47,17 @@
     border: none;
     padding: 1.7vh 1.8vw;
 
-    background: rgba(255, 113, 91, 1);
+    background: #ff715b;
     color: #ffffff;
     cursor: pointer;
+}
+
+.button:hover {
+    background: #ff7f6b;
+}
+
+.button:active {
+    background: #ff6952;
 }
 
 .hero-banner__pagination {

@@ -1,0 +1,77 @@
+.about-us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+
+    padding-left: 7vw;
+    margin: 17vh 0;
+    height: 834px;
+    width: calc(100% - 7vw);
+}
+
+.circle {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 55%;
+    width: 54px;
+    height: 54px;
+
+    border-radius: 50%;
+    border: 8px solid #FF5B65;
+    box-sizing: border-box;
+}
+
+.about__image {
+    position: relative;
+    width: 570px;
+    height: 700px;
+    background-image: url("../../icons/about-us/lighthouse.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.decoration {
+    z-index: -1;
+}
+
+.image__square {
+    position: absolute;
+    top: calc(0% - (142px / (5 / 2)));
+    right: calc(0% - (142px / (5 / 2)));
+    width: 142px;
+    height: 142px;
+
+    background: #FFCA45;
+    border-radius: 12px;
+}
+
+.image__shadow {
+    position: absolute;
+    width: 216px;
+    height: 635px;
+    top: calc(50% - (635px / 2));
+}
+
+.image__red-shadow {
+    right: -2%;
+    background: #FFCBC4;
+    filter: blur(150px);
+}
+
+.image__blue-shadow {
+    left: -7%;
+    background: #D3E2FF;
+    filter: blur(100px);
+}
+
+.image__circles {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+
+    bottom: calc(0% - ((170px - 15px) / 2));
+    left: calc(0% - ((170px - 15px) / 2));
+}

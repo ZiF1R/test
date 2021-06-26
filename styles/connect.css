@@ -1,3 +1,6 @@
 @import "./basic.css";
 @import "./desktop/nav_section/nav.css";
 @import "./desktop/hero-banner_section/hero-banner.css";
+@import "./desktop/how-it-works_section/how-it-works.css";
+@import "./desktop/top-destionation_section/top-destinations.css";
+@import "./desktop/about-us_section/about-us.css";

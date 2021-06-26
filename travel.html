@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -45,12 +45,12 @@
         </div>
     </nav>
 
-    <div class="hero-banner">
+    <header class="hero-banner">
         <div class="hero-banner__bg"></div>
-        <div class="hero-banner__title">
+        <h1 class="hero-banner__title">
             It's Time To<br>
             Explore The World
-        </div>
+        </h1>
         <button class="button hero-banner__button">
             Plan Your Trip
         </button>
@@ -98,7 +98,81 @@
                 Discover Now
             </button>
         </div>
-    </div>
+    </header>
 
+    <main>
+        <div class="how-it-works">
+            <div class="step">
+                <img src="./styles/icons/how-it-works/map.svg" alt="">
+                <h2>Choose Destination</h2>
+                <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing setting
+                </p>
+            </div>
+            <div class="step">
+                <img src="./styles/icons/how-it-works/binocular.svg" alt="">
+                <h2>Explore The Place</h2>
+                <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing setting
+                </p>
+            </div>
+            <div class="step">
+                <img src="./styles/icons/how-it-works/backpack.svg" alt="">
+                <h2>Start Your Journey</h2>
+                <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing setting
+                </p>
+            </div>
+            <div class="step">
+                <img src="./styles/icons/how-it-works/ukelele.svg" alt="">
+                <h2>Let’s Enjoy</h2>
+                <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing setting
+                </p>
+            </div>
+        </div>
+
+        <div id="destination" class="top-destionations">
+            <div class="bg-cube"></div>
+            <div class="top-destionations__text">
+                <h2>
+                    Top <span>Destinations</span><br>
+                    In The World
+                </h2>
+                <p>
+                    It is a long established fact that a reader will be the distracted by the readable content of a page when looking at its layout from it.
+                </p>
+                <button class="button">
+                    Discover More
+                </button>
+            </div>
+            <div class="top-destionations__images">
+                <div class="images__image">
+                    <span>Cuba City</span>
+                    <img src="./styles/icons/top-destinations/Cuba-city.jpg" alt="Cuba-city" draggable="false">
+                </div>
+                <div class="images__image">
+                    <span>Paris</span>
+                    <img src="./styles/icons/top-destinations/Paris-City.jpg" alt="Paris-city" draggable="false">
+                </div>
+                <div class="images__image">
+                    <span>Japan</span>
+                    <img src="./styles/icons/top-destinations/japan.jpg" alt="Japan" draggable="false">
+                </div>
+            </div>
+        </div>
+
+        <div id="offer" class="about-us">
+            <div class="circle"> </div>
+            <div class="about__image">
+                <div class="decoration image__square"></div>
+                <div class="decoration image__shadow image__red-shadow"></div>
+                <div class="decoration image__shadow image__blue-shadow"></div>
+                <img src="./styles/icons/about-us/circles.svg" class="decoration image__circles"></img>
+            </div>
+            <div class="about__text"></div>
+        </div>
+    </main>
+    
 </body>
 </html>
