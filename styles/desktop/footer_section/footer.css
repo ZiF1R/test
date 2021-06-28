@@ -1,0 +1,19 @@
+.footer__copyright {
+    border-top: 1px solid #F5EBE9;
+
+    padding: 3vh 0;
+    
+    font-family: 'Open Sans', sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 26px;
+    text-align: center;
+
+    color: #A79997;
+}
+
+.footer__copyright > a {
+    text-decoration: none;
+    color: rgba(255, 113, 91, 1);
+}

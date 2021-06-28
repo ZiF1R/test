@@ -1,12 +1,10 @@
-/* font-family: 'Noto Serif', serif;
-font-family: 'Noto Serif JP', serif; */
+/* font-family: 'Noto Serif', serif; */
 
-/* font-family: 'Noto Serif', serif;
-font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
 
 body {
     margin: 0;
-    padding: 3vh 6.25vw;
+    padding: 3vh 6.25vw 0;
     font-size: 16px;
 }
 

@@ -1,0 +1,53 @@
+.download-app {
+    position: relative;
+    margin-top: 25vh;
+    width: calc(100% - 7vw);
+    padding: 17vh 0;
+    padding-left: 7vw;
+    background: linear-gradient(left, rgba(166, 242, 242, 1), rgba(221, 241, 129, 1));
+    background: -webkit-linear-gradient(left, rgba(166, 242, 242, 1), rgba(221, 241, 129, 1));
+}
+
+.download-app > img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.download__info {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.download__info > h2 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 65px;
+
+    margin: 0;
+    margin-bottom: 5vh;
+}
+
+.info__controls > img:first-child {
+    margin-right: 1vw;
+}
+
+.info__controls > img {
+    cursor: pointer;
+}
+
+.info__controls {
+    z-index: 10;
+}
+
+.info__controls > img:hover {
+    filter: contrast(93%);
+}
+
+.info__controls > img:active {
+    filter: brightness(93%);
+}
