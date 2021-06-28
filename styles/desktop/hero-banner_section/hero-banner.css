@@ -52,6 +52,22 @@
     cursor: pointer;
 }
 
+.button_square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+    cursor: pointer;
+    padding: 0;
+}
+
 .button:hover {
     background: #ff7f6b;
 }
@@ -85,16 +101,6 @@
     align-items: center;
 }
 
-.control {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
 .controls__button_right {
     border: 2px solid #f3e2de;
     margin: 0 2vh;
@@ -106,10 +112,10 @@
 }
 
 .pagination__break-line {
-    width: 10vw;
+    width: 9vw;
     height: 2px;
     background-color: #f3d7d1;
-    margin-right: 2vw;
+    margin-right: 1vw;
 }
 
 .hero-banner__search {

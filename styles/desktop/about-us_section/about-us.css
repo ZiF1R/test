@@ -4,17 +4,17 @@
     align-items: center;
     position: relative;
 
-    padding-left: 7vw;
+    padding-left: 5vw;
     margin: 17vh 0;
     height: 834px;
-    width: calc(100% - 7vw);
+    width: calc(100% - 5vw);
 }
 
 .circle {
     display: block;
     position: absolute;
     left: 0;
-    top: 55%;
+    top: 51%;
     width: 54px;
     height: 54px;
 
@@ -74,4 +74,129 @@
 
     bottom: calc(0% - ((170px - 15px) / 2));
     left: calc(0% - ((170px - 15px) / 2));
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    padding: 0 2.7vw 0 8vw;
+    width: calc(60% - 10.7vw);
+    height: 100%;
+}
+
+.about__text > h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+
+    color: #2C2C2C;
+}
+
+.about__list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.list__item {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.item__icon {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.icon__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 10px;
+    transition: box-shadow .11s ease-out;
+}
+
+.icon__person > .icon__container {
+    background: #ff715b;
+}
+
+.icon__planet > .icon__container {
+    background: rgba(237, 250, 227, 1);
+    box-shadow: 0px 10px 15px rgba(237, 250, 227, 0.25);
+}
+
+.icon__headphones > .icon__container {
+    background: rgba(255, 248, 227, 1);
+    box-shadow: 0px 10px 15px rgba(255, 248, 227, 0.25);
+}
+
+.icon__container > img {
+    width: 55%;
+    height: 55%;
+}
+
+.item__text {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-left: 2.5vw;
+    margin-bottom: 6vh;
+
+    border-bottom: 1px solid #f1e0dd;
+}
+
+.item__text > h3 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-family: 'Noto Serif JP', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 33px;
+}
+
+.item__description {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 26px;
+
+    padding-bottom: 0; /* 3vh */
+    height: 0;
+    opacity: 0;
+
+    color: #A79997;
+}
+
+.list__item:hover .item__description {
+    padding-bottom: 3vh;
+    height: fit-content;
+    opacity: 1;
+}
+
+.list__item:hover .icon__person > .icon__container {
+    box-shadow: 0px 10px 15px rgba(255, 113, 91, 0.25);
+}
+
+.list__item:hover .icon__planet > .icon__container {
+    box-shadow: 0px 10px 15px rgba(237, 250, 227, 0.25);
+}
+
+.list__item:hover .icon__headphones > .icon__container {
+    box-shadow: 0px 10px 15px rgba(255, 248, 227, 0.25);
 }
