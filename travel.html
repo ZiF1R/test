@@ -101,7 +101,7 @@
     </header>
 
     <main>
-        <div class="how-it-works">
+        <div id="about-us" class="how-it-works">
             <div class="step">
                 <img src="./styles/icons/how-it-works/map.svg" alt="">
                 <h2>Choose Destination</h2>
@@ -366,35 +366,50 @@
         </div>
     </main>
     
-    <footer>
+    <footer id="contact">
         <div class="footer__links">
             <div class="links__column">
-                <img src="./styles/icons/footer/logo.svg" alt="logo">
+                <img class="footer__header" src="./styles/icons/footer/logo.svg" alt="logo">
                 <p class="column__frase">
                     You can dream, create, design, and buildsa the most wonderful place.
                 </p>
-                <div class="footer__phone">
+                <div class="footer__contact">
                     <img src="./styles/icons/footer/phone.svg" alt="Our telephone">
                     <a href="tel:+375296340515">+375(29) 634 05-15</a>
                 </div>
-                <div class="footer__mail">
+                <div class="footer__contact">
                     <img src="./styles/icons/footer/mail.svg" alt="Our mail">
                     <a href="mailto:do-alex03@mail.ru">do-alex03@mail.ru</a>
                 </div>
-                <div class="footer__location">
+                <div class="footer__contact">
                     <img src="./styles/icons/footer/place.svg" alt="Our website">
-                    <a href="http://https://github.com/ZiF1R" target="_blank">https://github.com/ZiF1R</a>
+                    <a href="https://github.com/ZiF1R" target="_blank">https://github.com/ZiF1R</a>
                 </div>
             </div>
             <div class="links__column">
-                <h3>Quick Links</h3>
+                <h3 class="footer__header">Quick Links</h3>
                 <ul>
-                    <li>About Us</li>
-                    <li>Destinations</li>
-                    <li>Latest Blog</li>
-                    <li>Our Team</li>
-                    <li>Contact Us</li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#destination">Destinations</a></li>
+                    <li><a href="#tour">Latest Blog</a></li>
+                    <li><a href="#blog">Our Team</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
+            </div>
+            <div class="links__column">
+                <h3 class="footer__header">Support</h3>
+                <ul>
+                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">Privacy & Policy</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Tour Guid</a></li>
+                </ul>
+            </div>
+            <div class="links__column">
+                <h3 class="footer__header">Newsletter</h3>
+                <input class="footer__newsletter" type="text">
+                <button class="button">Subscribe Now</button>
             </div>
         </div>
         <div class="footer__copyright">

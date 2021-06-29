@@ -1,3 +1,118 @@
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 0 6vw 7vh;
+    width: calc(100% - 12vw);
+}
+
+.footer__links a {
+    color: #A79997;
+    text-decoration: none;
+}
+
+.links__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 450px;
+}
+
+.links__column > img {
+    width: 220px;
+}
+
+.footer__header {
+    margin-bottom: 3vh;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+h3.footer__header {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 26px;
+}
+
+.footer__contact > img {
+    margin-right: 1vw;
+}
+
+.footer__newsletter {
+    padding-left: 0.5vw;
+    width: calc(400px - 0.5vw);
+    height: 5.5vh;
+    outline: none;
+    background: #F8F8F8;
+    border: 1px solid #F5EBE9;
+    box-sizing: border-box;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 26px;
+
+    margin-bottom: 2vh;
+}
+
+.links__column > button {
+    width: fit-content;
+}
+
+.links__column > p,
+.footer__contact > a {
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 26px;
+
+    text-decoration: none;
+    color: #A79997;
+}
+
+.links__column > p {
+    margin-bottom: 3vh;
+}
+
+.links__column > ul {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 42px;
+
+    color: #A79997;
+}
+
+.links__column > ul > li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.links__column > ul > li:hover a,
+.links__column > ul > li:hover {
+    color: #FF715B;
+}
+
+.links__column > ul > li::before {
+    content: "—";
+    padding-right: 0.5vw;
+}
+
 .footer__copyright {
     border-top: 1px solid #F5EBE9;
 
