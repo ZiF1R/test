@@ -1,0 +1,5 @@
+@media screen and (max-width: 1700px) and (min-width: 1100px) {
+    .download__info > h2 {
+        line-height: 50px;
+    }
+}

@@ -1,0 +1,55 @@
+@media screen and (max-width: 1700px) and (min-width: 1100px) {
+    .about-us {
+        height: 794px;
+    }
+
+    .about__text > h2 {
+        line-height: 50px;
+    }
+
+    .about__image {
+        width: 490px;
+        height: 620px;
+    }
+
+    .icon__container {
+        width: 42px;
+        height: 42px;
+    }
+
+    .item__text > h3 {
+        line-height: 25px;
+    }
+    
+    .item__description {
+        line-height: 20px;
+    }
+
+    .circle {
+        width: 47px;
+        height: 47px;
+        border: 7px solid #FF5B65;
+    }
+
+    .image__square {
+        top: calc(0% - (112px / (5 / 2)));
+        right: calc(0% - (112px / (5 / 2)));
+        width: 112px;
+        height: 112px;
+    }
+    
+    .image__shadow {
+        width: 186px;
+        height: 605px;
+        top: calc(50% - (615px / 2));
+    }
+
+    .image__circles {
+        position: absolute;
+        width: 140px;
+        height: 140px;
+    
+        bottom: calc(0% - ((140px - 25px) / 2));
+        left: calc(0% - ((140px - 25px) / 2));
+    }
+}

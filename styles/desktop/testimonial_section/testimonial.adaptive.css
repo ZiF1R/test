@@ -1,0 +1,37 @@
+@media screen and (max-width: 1700px) and (min-width: 1100px) {
+    .testimonial > h2 {
+        line-height: 50px;
+    }
+
+    .testimonial {
+        position: relative;
+    }
+
+    .testimonial > img {
+        width: 16%;
+        height: 16%;
+    }
+
+    .review {
+        padding: 0 2.5vw;
+        width: calc(540px - 5vw);
+        height: 473px;
+    }
+
+    .customer__name {
+        line-height: 25px;
+    }
+    
+    .customer__speciality {
+        line-height: 16px;
+    }
+    
+    .info__message {
+        line-height: 25px;
+    }
+
+    .pagination__point {
+        height: 8px;
+        width: 8px;
+    }
+}

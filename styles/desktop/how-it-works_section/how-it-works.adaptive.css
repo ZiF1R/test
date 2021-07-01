@@ -1,0 +1,33 @@
+@media screen and (max-width: 1700px) and (min-width: 1100px) {
+    .step > img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .step > h2 {
+        line-height: 27px;
+    }
+    
+    .step > p {
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1500px) {
+    .step {
+        width: calc((326px - 55px) - 4vw);
+        height: calc((326px - 55px) - 2vh);
+    }
+}
+
+@media screen and (max-width: 1499px) and (min-width: 1100px) {
+    .how-it-works {
+        padding: 0 4vw;
+        width: calc(100% - 8vw);
+    }
+
+    .step {
+        width: calc((326px - 75px) - 4vw);
+        height: calc((326px - 75px) - 2vh);
+    }
+}

@@ -27,7 +27,7 @@ nav {
 }
 
 .nav__logo {
-    height: 35px;
+    height: 45px;
 }
 
 .tools__account {
@@ -40,26 +40,24 @@ nav {
 .nav__tools {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .tools__account > span {
     margin: 0 1vw;
 }
 
-.nav__tools svg {
+.nav__tools img {
     height: 25px;
-    width: 20px;
+    width: 25px;
 }
 
 .tools__search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     
     margin: 0 .7vw;
-    height: 35px;
-    width: 30px;
+    /* height: 30px;
+    width: 30px; */
     cursor: pointer;
 }
 

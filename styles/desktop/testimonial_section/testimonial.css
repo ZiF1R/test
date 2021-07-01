@@ -129,6 +129,7 @@
 
 .point_active::after {
     content: "www";
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0);
     height: 200%;
     width: 200%;

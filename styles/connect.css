@@ -5,6 +5,17 @@
 @import "./desktop/top-destionation_section/top-destinations.css";
 @import "./desktop/about-us_section/about-us.css";
 @import "./desktop/choose-destination_section/choose-destination.css";
-@import "./desktop/testimonial_sectiom/testimonial.css";
+@import "./desktop/testimonial_section/testimonial.css";
 @import "./desktop/download-app_section/download-app.css";
 @import "./desktop/footer_section/footer.css";
+
+/*! ADAPTIVE STYLES */
+@import "./desktop/nav_section/nav.adaptive.css";
+@import "./desktop/hero-banner_section/hero-banner.adaptive.css";
+@import "./desktop/how-it-works_section/how-it-works.adaptive.css";
+@import "./desktop/top-destionation_section/top-destinations.adaptive.css";
+@import "./desktop/about-us_section/about-us.adaptive.css";
+@import "./desktop/choose-destination_section/choose-destination.adaptive.css";
+@import "./desktop/testimonial_section/testimonial.adaptive.css";
+@import "./desktop/download-app_section/download-app.adaptive.css";
+@import "./desktop/footer_section/footer.adaptive.css";

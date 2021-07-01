@@ -1,0 +1,10 @@
+@media screen and (max-width: 1700px) and (min-width: 1100px) {
+    .links__column > ul {
+        line-height: 35px;
+    }
+
+    .links__column > p,
+    .footer__contact > a {
+        line-height: 20px;
+    }
+}

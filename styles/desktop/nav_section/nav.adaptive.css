@@ -1,0 +1,14 @@
+@media screen and (max-width: 1700px) and (min-width: 1200px) {
+    html {
+        font-size: 12px;
+    }
+
+    .nav__logo {
+        height: 35px;
+    }
+
+    .nav__tools img {
+        height: 18px;
+        width: 18px;
+    }
+}
