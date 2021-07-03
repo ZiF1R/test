@@ -14,8 +14,8 @@
 
     .review {
         padding: 0 2.5vw;
-        width: calc(540px - 5vw);
-        height: 473px;
+        width: calc(530px - 5vw);
+        height: 403px;
     }
 
     .customer__name {
@@ -33,5 +33,12 @@
     .pagination__point {
         height: 8px;
         width: 8px;
+    }
+
+    .circle-pink {
+        width: 190px;
+        height: 190px;
+        right: calc(0% - (190px / 2));
+        bottom: calc(0% - (190px / 2));
     }
 }
