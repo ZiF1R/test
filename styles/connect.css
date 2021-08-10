@@ -9,7 +9,6 @@
 @import "./desktop/download-app_section/download-app.css";
 @import "./desktop/footer_section/footer.css";
 
-/*! ADAPTIVE STYLES */
 @import "./desktop/nav_section/nav.adaptive.css";
 @import "./desktop/hero-banner_section/hero-banner.adaptive.css";
 @import "./desktop/how-it-works_section/how-it-works.adaptive.css";
